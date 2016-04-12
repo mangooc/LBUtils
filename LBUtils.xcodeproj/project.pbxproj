@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D086D30F1CBC8D6D00452856 /* LBAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D086D3101CBC8D6D00452856 /* Build configuration list for PBXAggregateTarget "LBAggregate" */;
+			buildPhases = (
+				D086D3131CBC8D7B00452856 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = LBAggregate;
+			productName = LBAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D086D2F41CBC8ABE00452856 /* LBUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D086D2E91CBC8ABE00452856 /* LBUtils.framework */; };
+		D086D2F91CBC8ABE00452856 /* LBUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D2F81CBC8ABE00452856 /* LBUtilsTests.m */; };
+		D086D3091CBC8B1E00452856 /* NSDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D086D3031CBC8B1E00452856 /* NSDateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D086D30A1CBC8B1E00452856 /* NSDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D3041CBC8B1E00452856 /* NSDateUtil.m */; };
+		D086D30B1CBC8B1E00452856 /* NSFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D086D3051CBC8B1E00452856 /* NSFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D086D30C1CBC8B1E00452856 /* NSFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D3061CBC8B1E00452856 /* NSFileUtil.m */; };
+		D086D30D1CBC8B1E00452856 /* NSString+Wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D086D30E1CBC8B1E00452856 /* NSString+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D086D2F51CBC8ABE00452856 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D086D2E01CBC8ABE00452856 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D086D2E81CBC8ABE00452856;
+			remoteInfo = LBUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D086D2E91CBC8ABE00452856 /* LBUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LBUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D086D2EE1CBC8ABE00452856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D086D2F31CBC8ABE00452856 /* LBUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D086D2F81CBC8ABE00452856 /* LBUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBUtilsTests.m; sourceTree = "<group>"; };
+		D086D2FA1CBC8ABE00452856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D086D3031CBC8B1E00452856 /* NSDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtil.h; sourceTree = "<group>"; };
+		D086D3041CBC8B1E00452856 /* NSDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtil.m; sourceTree = "<group>"; };
+		D086D3051CBC8B1E00452856 /* NSFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileUtil.h; sourceTree = "<group>"; };
+		D086D3061CBC8B1E00452856 /* NSFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileUtil.m; sourceTree = "<group>"; };
+		D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Wrapper.h"; sourceTree = "<group>"; };
+		D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wrapper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D086D2E51CBC8ABE00452856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D086D2F01CBC8ABE00452856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086D2F41CBC8ABE00452856 /* LBUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D086D2DF1CBC8ABE00452856 = {
+			isa = PBXGroup;
+			children = (
+				D086D2EB1CBC8ABE00452856 /* LBUtils */,
+				D086D2F71CBC8ABE00452856 /* LBUtilsTests */,
+				D086D2EA1CBC8ABE00452856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D086D2EA1CBC8ABE00452856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D086D2E91CBC8ABE00452856 /* LBUtils.framework */,
+				D086D2F31CBC8ABE00452856 /* LBUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D086D2EB1CBC8ABE00452856 /* LBUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D086D3031CBC8B1E00452856 /* NSDateUtil.h */,
+				D086D3041CBC8B1E00452856 /* NSDateUtil.m */,
+				D086D3051CBC8B1E00452856 /* NSFileUtil.h */,
+				D086D3061CBC8B1E00452856 /* NSFileUtil.m */,
+				D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */,
+				D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */,
+				D086D2EE1CBC8ABE00452856 /* Info.plist */,
+			);
+			path = LBUtils;
+			sourceTree = "<group>";
+		};
+		D086D2F71CBC8ABE00452856 /* LBUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D086D2F81CBC8ABE00452856 /* LBUtilsTests.m */,
+				D086D2FA1CBC8ABE00452856 /* Info.plist */,
+			);
+			path = LBUtilsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D086D2E61CBC8ABE00452856 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086D30D1CBC8B1E00452856 /* NSString+Wrapper.h in Headers */,
+				D086D3091CBC8B1E00452856 /* NSDateUtil.h in Headers */,
+				D086D30B1CBC8B1E00452856 /* NSFileUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D086D2E81CBC8ABE00452856 /* LBUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D086D2FD1CBC8ABE00452856 /* Build configuration list for PBXNativeTarget "LBUtils" */;
+			buildPhases = (
+				D086D2E41CBC8ABE00452856 /* Sources */,
+				D086D2E51CBC8ABE00452856 /* Frameworks */,
+				D086D2E61CBC8ABE00452856 /* Headers */,
+				D086D2E71CBC8ABE00452856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBUtils;
+			productName = LBUtils;
+			productReference = D086D2E91CBC8ABE00452856 /* LBUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D086D2F21CBC8ABE00452856 /* LBUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D086D3001CBC8ABE00452856 /* Build configuration list for PBXNativeTarget "LBUtilsTests" */;
+			buildPhases = (
+				D086D2EF1CBC8ABE00452856 /* Sources */,
+				D086D2F01CBC8ABE00452856 /* Frameworks */,
+				D086D2F11CBC8ABE00452856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D086D2F61CBC8ABE00452856 /* PBXTargetDependency */,
+			);
+			name = LBUtilsTests;
+			productName = LBUtilsTests;
+			productReference = D086D2F31CBC8ABE00452856 /* LBUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D086D2E01CBC8ABE00452856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mangooc;
+				TargetAttributes = {
+					D086D2E81CBC8ABE00452856 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D086D2F21CBC8ABE00452856 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D086D30F1CBC8D6D00452856 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D086D2E31CBC8ABE00452856 /* Build configuration list for PBXProject "LBUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D086D2DF1CBC8ABE00452856;
+			productRefGroup = D086D2EA1CBC8ABE00452856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D086D2E81CBC8ABE00452856 /* LBUtils */,
+				D086D2F21CBC8ABE00452856 /* LBUtilsTests */,
+				D086D30F1CBC8D6D00452856 /* LBAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D086D2E71CBC8ABE00452856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D086D2F11CBC8ABE00452856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D086D3131CBC8D7B00452856 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\n# FMK_NAME=${PRODUCT_NAME}\nFMK_NAME=\"LBUtils\"\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D086D2E41CBC8ABE00452856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086D30C1CBC8B1E00452856 /* NSFileUtil.m in Sources */,
+				D086D30A1CBC8B1E00452856 /* NSDateUtil.m in Sources */,
+				D086D30E1CBC8B1E00452856 /* NSString+Wrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D086D2EF1CBC8ABE00452856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D086D2F91CBC8ABE00452856 /* LBUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D086D2F61CBC8ABE00452856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D086D2E81CBC8ABE00452856 /* LBUtils */;
+			targetProxy = D086D2F51CBC8ABE00452856 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D086D2FB1CBC8ABE00452856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D086D2FC1CBC8ABE00452856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D086D2FE1CBC8ABE00452856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LBUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mango.LBUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D086D2FF1CBC8ABE00452856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LBUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mango.LBUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D086D3011CBC8ABE00452856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mime.LBUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D086D3021CBC8ABE00452856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mime.LBUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D086D3111CBC8D6D00452856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D086D3121CBC8D6D00452856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D086D2E31CBC8ABE00452856 /* Build configuration list for PBXProject "LBUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086D2FB1CBC8ABE00452856 /* Debug */,
+				D086D2FC1CBC8ABE00452856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D086D2FD1CBC8ABE00452856 /* Build configuration list for PBXNativeTarget "LBUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086D2FE1CBC8ABE00452856 /* Debug */,
+				D086D2FF1CBC8ABE00452856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D086D3001CBC8ABE00452856 /* Build configuration list for PBXNativeTarget "LBUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086D3011CBC8ABE00452856 /* Debug */,
+				D086D3021CBC8ABE00452856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D086D3101CBC8D6D00452856 /* Build configuration list for PBXAggregateTarget "LBAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D086D3111CBC8D6D00452856 /* Debug */,
+				D086D3121CBC8D6D00452856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D086D2E01CBC8ABE00452856 /* Project object */;
+}
