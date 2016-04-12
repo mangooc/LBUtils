@@ -21,5 +21,5 @@
 #####     ......
 
 ##备注：
-####    生成Framework时，可以选择Target--->LBAggregate 通过脚本自动合并模拟器和真机的Framework.
+####    如果要生成兼容模拟器和真机的Framework,请选择Target--->LBAggregate，build成功后会打开对应的文件夹。
 
