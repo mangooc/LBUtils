@@ -29,6 +29,10 @@
 		D086D30C1CBC8B1E00452856 /* NSFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D3061CBC8B1E00452856 /* NSFileUtil.m */; };
 		D086D30D1CBC8B1E00452856 /* NSString+Wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D086D30E1CBC8B1E00452856 /* NSString+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */; };
+		D0A983AE1CBE279F00E8EF9A /* UIView+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A983AC1CBE279F00E8EF9A /* UIView+Util.h */; };
+		D0A983AF1CBE279F00E8EF9A /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A983AD1CBE279F00E8EF9A /* UIView+Util.m */; };
+		D0A983B21CBE291D00E8EF9A /* UIColor+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A983B01CBE291D00E8EF9A /* UIColor+Util.h */; };
+		D0A983B31CBE291D00E8EF9A /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A983B11CBE291D00E8EF9A /* UIColor+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		D086D3061CBC8B1E00452856 /* NSFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileUtil.m; sourceTree = "<group>"; };
 		D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Wrapper.h"; sourceTree = "<group>"; };
 		D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wrapper.m"; sourceTree = "<group>"; };
+		D0A983AC1CBE279F00E8EF9A /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		D0A983AD1CBE279F00E8EF9A /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		D0A983B01CBE291D00E8EF9A /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		D0A983B11CBE291D00E8EF9A /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 				D086D3061CBC8B1E00452856 /* NSFileUtil.m */,
 				D086D3071CBC8B1E00452856 /* NSString+Wrapper.h */,
 				D086D3081CBC8B1E00452856 /* NSString+Wrapper.m */,
+				D0A983AC1CBE279F00E8EF9A /* UIView+Util.h */,
+				D0A983AD1CBE279F00E8EF9A /* UIView+Util.m */,
+				D0A983B01CBE291D00E8EF9A /* UIColor+Util.h */,
+				D0A983B11CBE291D00E8EF9A /* UIColor+Util.m */,
 				D086D2EE1CBC8ABE00452856 /* Info.plist */,
 			);
 			path = LBUtils;
@@ -123,8 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D086D30D1CBC8B1E00452856 /* NSString+Wrapper.h in Headers */,
+				D0A983AE1CBE279F00E8EF9A /* UIView+Util.h in Headers */,
 				D086D3091CBC8B1E00452856 /* NSDateUtil.h in Headers */,
 				D086D30B1CBC8B1E00452856 /* NSFileUtil.h in Headers */,
+				D0A983B21CBE291D00E8EF9A /* UIColor+Util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +260,9 @@
 			files = (
 				D086D30C1CBC8B1E00452856 /* NSFileUtil.m in Sources */,
 				D086D30A1CBC8B1E00452856 /* NSDateUtil.m in Sources */,
+				D0A983AF1CBE279F00E8EF9A /* UIView+Util.m in Sources */,
 				D086D30E1CBC8B1E00452856 /* NSString+Wrapper.m in Sources */,
+				D0A983B31CBE291D00E8EF9A /* UIColor+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
